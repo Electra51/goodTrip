@@ -1,0 +1,157 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+    <script
+  type="text/javascript"
+  src="../node_modules/tw-elements/dist/js/tw-elements.umd.min.js"></script>
+    
+    <title>Vite App</title>
+  </head>
+  <style>
+    #check:checked ~ ul{
+      left:0
+    }
+   
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800;900&display=swap');
+</style>
+
+
+
+  <body class="font-sans font-medium">
+     <nav class="bg-slate-600 h-20 w-full fixed">
+      <input type="checkbox" id="check" hidden>
+      <label for="check" class="float-right text-white text-3xl leading-[80px] mr-4 lg:hidden"><i class="uil uil-align-justify"></i></label>
+     <label class="text-white md:leading-[80px] leading-[80px] pl-5 md:pl-20 md:text-4xl text-3xl">GoodTrip</label>
+    <ul class="float-right mr-10 lg:flex leading-[80px] space-x-4 text-white  uppercase rounded fixed lg:relative h-[100vh] lg:h-0 w-[100%] lg:w-fit top-20 lg:top-0 left-[-100%] lg:left-0 transition-all duration-300 lg:transition-none text-center bg-slate-700">
+      <li><a class="lg:bg-slate-300" href="#">Home</a></li>
+      <li><a href="#">Special Offer</a></li>
+      <li><a href="#">Account</a></li>
+    </ul>
+  </nav>
+
+  <!-- heroSection -->
+  <!-- <section class="bg-contain bg-no-repeat  h-[100vh]" style="background-image: url(https://i.ibb.co/FscvWZW/Group-18.png);">
+   
+  </section> -->
+    
+  
+
+<section class="bg-contain lg:bg-cover bg-no-repeat h-[100vh] bg-[url('https://i.ibb.co/hf6KhZW/Group-18-1.png')] bg-gray-700 bg-blend-multiply">
+    <div class="relative px-4 mx-auto max-w-screen-xl text-center py-24 lg:py-56">
+        <h1 class="mb-4 text-4xl font-extrabold tracking-tight leading-none text-white md:text-5xl lg:text-6xl">We invest in the world’s potential</h1>
+        <p class="mb-8 text-lg font-normal text-gray-300 lg:text-xl sm:px-16 lg:px-48">Here at Flowbite we focus on markets where technology, innovation, and capital can unlock long-term value and drive economic growth.</p>
+        <div class="flex flex-col space-y-4 sm:flex-row sm:justify-center sm:space-y-0 sm:space-x-4">
+            <a href="#" class="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-white rounded-lg bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900">
+                Get started
+                <svg class="w-3.5 h-3.5 ml-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
+                </svg>
+            </a>
+            <a href="#" class="inline-flex justify-center hover:text-gray-900 items-center py-3 px-5 text-base font-medium text-center text-white rounded-lg border border-white hover:bg-gray-100 focus:ring-4 focus:ring-gray-400">
+                Learn more
+            </a>  
+        </div>
+        <div class="absolute left-[50%] top-[80%] shadow-md shadow-slate-200 h-48 bg-slate-50">
+   <!--Tabs navigation-->
+<ul
+  class="mb-5 flex list-none flex-row flex-wrap border-b-0 pl-0"
+  role="tablist"
+  data-te-nav-ref>
+  <li role="presentation">
+    <a
+      href="#tabs-home"
+      class="my-2 block border-x-0 border-b-2 border-t-0 border-transparent px-7 pb-3.5 pt-4 text-xs font-medium uppercase leading-tight text-neutral-500 hover:isolate hover:border-transparent hover:bg-neutral-100 focus:isolate focus:border-transparent data-[te-nav-active]:border-primary data-[te-nav-active]:text-primary dark:text-neutral-400 dark:hover:bg-transparent dark:data-[te-nav-active]:border-primary-400 dark:data-[te-nav-active]:text-primary-400"
+      data-te-toggle="pill"
+      data-te-target="#tabs-home"
+      data-te-nav-active
+      role="tab"
+      aria-controls="tabs-home"
+      aria-selected="true"
+      >
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" id="airplane"><path d="M11.403 27.46a.502.502 0 0 1-.422-.232l-2.415-3.795-3.795-2.415a.502.502 0 0 1-.085-.775L6.1 18.828a.496.496 0 0 1 .533-.113l2.62 1.008 6.402-7.396-8.067-5.459a.5.5 0 0 1-.073-.767l1.414-1.414a.505.505 0 0 1 .55-.107l9.397 4.027.81-.936A7.495 7.495 0 0 1 25.339 5.1c.887 0 1.56.673 1.56 1.5 0 2.228-.937 4.288-2.57 5.712l-.937.811 4.027 9.397a.503.503 0 0 1-.106.551l-1.414 1.414a.52.52 0 0 1-.401.145.505.505 0 0 1-.366-.218l-5.459-8.068-7.396 6.402 1.008 2.62a.5.5 0 0 1-.113.533l-1.415 1.414a.5.5 0 0 1-.354.147zm-5.569-6.95 3.363 2.14a.496.496 0 0 1 .153.153l2.14 3.363.745-.744-1.018-2.645a.5.5 0 0 1 .14-.558l8.087-7.001c.106-.094.251-.138.393-.118s.269.098.349.216l5.436 8.033.746-.746-4.038-9.422a.5.5 0 0 1 .133-.575l1.212-1.049a6.497 6.497 0 0 0 2.226-4.897c0-.335-.225-.56-.5-.56-1.938 0-3.724.812-4.958 2.227l-1.048 1.211a.498.498 0 0 1-.575.133L9.396 5.633l-.746.746 8.033 5.436a.499.499 0 0 1 .098.742L9.78 20.643a.501.501 0 0 1-.558.14l-2.645-1.018-.743.745z"></path></svg>
+      Flight</a
+    >
+  </li>
+  <li role="presentation">
+    <a
+      href="#tabs-profile"
+      class="my-2 block border-x-0 border-b-2 border-t-0 border-transparent px-7 pb-3.5 pt-4 text-xs font-medium uppercase leading-tight text-neutral-500 hover:isolate hover:border-transparent hover:bg-neutral-100 focus:isolate focus:border-transparent data-[te-nav-active]:border-primary data-[te-nav-active]:text-primary dark:text-neutral-400 dark:hover:bg-transparent dark:data-[te-nav-active]:border-primary-400 dark:data-[te-nav-active]:text-primary-400"
+      data-te-toggle="pill"
+      data-te-target="#tabs-profile"
+      role="tab"
+      aria-controls="tabs-profile"
+      aria-selected="false"
+      ><svg xmlns="http://www.w3.org/2000/svg" data-name="Layer 1" viewBox="0 0 48 48" id="hotel"><path d="M39 40h-3V7a1 1 0 0 0-1-1H13a1 1 0 0 0-1 1v33H9a1 1 0 0 0 0 2h30a1 1 0 0 0 0-2Zm-18 0v-6h6v6Zm8 0v-6h1a1 1 0 0 0 0-2H18a1 1 0 0 0 0 2h1v6h-5V8h20v32Z"></path><path d="M19 11h-2a1 1 0 0 0 0 2h2a1 1 0 0 0 0-2zm6 0h-2a1 1 0 0 0 0 2h2a1 1 0 0 0 0-2zm6 0h-2a1 1 0 0 0 0 2h2a1 1 0 0 0 0-2zm-12 5h-2a1 1 0 0 0 0 2h2a1 1 0 0 0 0-2zm6 0h-2a1 1 0 0 0 0 2h2a1 1 0 0 0 0-2zm6 0h-2a1 1 0 0 0 0 2h2a1 1 0 0 0 0-2zm-12 5h-2a1 1 0 0 0 0 2h2a1 1 0 0 0 0-2zm6 0h-2a1 1 0 0 0 0 2h2a1 1 0 0 0 0-2zm6 0h-2a1 1 0 0 0 0 2h2a1 1 0 0 0 0-2zm-12 5h-2a1 1 0 0 0 0 2h2a1 1 0 0 0 0-2zm6 0h-2a1 1 0 0 0 0 2h2a1 1 0 0 0 0-2zm6 0h-2a1 1 0 0 0 0 2h2a1 1 0 0 0 0-2z"></path></svg>Hotel</a
+    >
+  </li>
+  <li role="presentation">
+    <a
+      href="#tabs-messages"
+      class="my-2 block border-x-0 border-b-2 border-t-0 border-transparent px-7 pb-3.5 pt-4 text-xs font-medium uppercase leading-tight text-neutral-500 hover:isolate hover:border-transparent hover:bg-neutral-100 focus:isolate focus:border-transparent data-[te-nav-active]:border-primary data-[te-nav-active]:text-primary dark:text-neutral-400 dark:hover:bg-transparent dark:data-[te-nav-active]:border-primary-400 dark:data-[te-nav-active]:text-primary-400"
+      data-te-toggle="pill"
+      data-te-target="#tabs-messages"
+      role="tab"
+      aria-controls="tabs-messages"
+      aria-selected="false"
+      ><i class="uil uil-airplay"></i>Train</a
+    >
+  </li>
+  <li role="presentation">
+    <a
+      href="#tabs-contact"
+      class="disabled pointer-events-none my-2 block border-x-0 border-b-2 border-t-0 border-transparent bg-transparent px-7 pb-3.5 pt-4 text-xs font-medium uppercase leading-tight text-neutral-400 hover:isolate hover:border-transparent hover:bg-neutral-100 focus:isolate focus:border-transparent dark:text-neutral-600"
+      data-te-toggle="pill"
+      data-te-target="#tabs-contact"
+      role="tab"
+      aria-controls="tabs-contact"
+      aria-selected="false"
+      >Contact</a
+    >
+  </li>
+</ul>
+
+<!--Tabs content-->
+<div class="mb-6">
+  <div
+    class="hidden opacity-100 transition-opacity duration-150 ease-linear data-[te-tab-active]:block"
+    id="tabs-home"
+    role="tabpanel"
+    aria-labelledby="tabs-home-tab"
+    data-te-tab-active>
+    Tab 1 content
+  </div>
+  <div
+    class="hidden opacity-0 transition-opacity duration-150 ease-linear data-[te-tab-active]:block"
+    id="tabs-profile"
+    role="tabpanel"
+    aria-labelledby="tabs-profile-tab">
+    Tab 2 content
+  </div>
+  <div
+    class="hidden opacity-0 transition-opacity duration-150 ease-linear data-[te-tab-active]:block"
+    id="tabs-messages"
+    role="tabpanel"
+    aria-labelledby="tabs-profile-tab">
+    Tab 3 content
+  </div>
+  <div
+    class="hidden opacity-0 transition-opacity duration-150 ease-linear data-[te-tab-active]:block"
+    id="tabs-contact"
+    role="tabpanel"
+    aria-labelledby="tabs-contact-tab">
+    Tab 4 content
+  </div>
+</div>
+        </div>
+    </div>
+</section>
+
+
+  
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
